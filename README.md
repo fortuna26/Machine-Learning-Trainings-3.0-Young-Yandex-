@@ -7,3 +7,4 @@ Most of implementations leverage the **PyTorch** framework, covering topics such
 |:--------------------|:-----------------|:----------------|
 | [HW_1 task_1](https://github.com/fortuna26/Machine-Learning-Trainings-3.0-Young-Yandex-/blob/main/HW_1/hw_01_task_1.ipynb) | Image classification task on MNIST dataset | Python, PyTorch, NumPy, Matplotlib |
 | [HW_1 task 2](https://github.com/fortuna26/Machine-Learning-Trainings-3.0-Young-Yandex-/blob/main/HW_1/hw_01_task_2.ipynb) | Image classification task on FMNIST dataset | Python, PyTorch, NumPy, Matplotlib |
+| [HW_2](https://github.com/fortuna26/Machine-Learning-Trainings-3.0-Young-Yandex-/blob/main/HW_2/hw_02_sobel_and_simple_hog.ipynb) | Implementation of edge detection (Sobel filter) and a simplified version of Histogram of Oriented Gradients (HOG) feature extraction | Python, PyTorch, NumPy, OpenCV, Matplotlib | 
