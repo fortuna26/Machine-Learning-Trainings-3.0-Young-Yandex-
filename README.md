@@ -9,3 +9,6 @@ Most of implementations leverage the **PyTorch** framework, covering topics such
 | [HW_1 task 2](https://github.com/fortuna26/Machine-Learning-Trainings-3.0-Young-Yandex-/blob/main/HW_1/hw_01_task_2.ipynb) | Image classification task on FMNIST dataset | Python, PyTorch, NumPy, Matplotlib |
 | [HW_2](https://github.com/fortuna26/Machine-Learning-Trainings-3.0-Young-Yandex-/blob/main/HW_2/hw_02_sobel_and_simple_hog.ipynb) | Implementation of edge detection (Sobel filter) and a simplified version of Histogram of Oriented Gradients (HOG) feature extraction | Python, PyTorch, NumPy, OpenCV, Matplotlib | 
 | [HW_3](https://github.com/fortuna26/Machine-Learning-Trainings-3.0-Young-Yandex-/blob/main/HW_3/hw_03_panorama_matching.ipynb) | This implementation covers the complete panorama stitching pipeline from scratch | Python, PyTorch, NumPy, OpenCV, Matplotlib | 
+| [HW_4](https://github.com/fortuna26/Machine-Learning-Trainings-3.0-Young-Yandex-/blob/main/HW_4/hw_04_fmnist_overfitting.ipynb) | In this assignment we first deliberately overfit a neural network, then addressed the overfitting by implementing various regularization techniques. | Python, PyTorch, NumPy, Matplotlib |
+
+
