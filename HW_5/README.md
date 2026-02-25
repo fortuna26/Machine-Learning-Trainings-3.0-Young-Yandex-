@@ -1,14 +1,14 @@
-# Homework_5 "Neo-Tokio fixed" 
-## (description of task)
+**Home Work 5. Neo-Tokio fixed - Drone Classification**
 
-Поздравляем, вы приняли оффер в легендарном кластере BlackCircuit! На рассвете вас подхватила дрон-машина, провезла сквозь сверкающие высотки Нео-Токио, и высадила у входа в серверный бункер. На входе — биометрическая верификация, выдали плащ, терминал и доступ к внутренней сети.
+**Task**: Build a binary classifier to identify hostile drones based on telemetry data.
 
-Вы попали в отдел цифровой разведки — здесь мониторят весь городской эфир в поисках беспилотников-пришельцев. Коллеги уже развернули систему, которая улавливает сигнал и считывает параметры дрона. Ваша миссия — научить классификатор определять, относится ли объект к враждебной фракции или нет.
+[Data](https://disk.yandex.ru/d/mitPi8xss4Q6Jg): `train.csv` (labeled) and `test.csv` (unlabeled)
 
-В [репозитории](https://disk.yandex.ru/d/mitPi8xss4Q6Jg) лежат данные для обучения модели **(train.csv)** и отдельный датасет **(test.csv)**, на котором нужно сделать предсказания.
+**Goal** Predict `0` or `1` for each test sample.  
+Target accuracy: < 91.5% (or > 86.5% for partial credit)
 
-Так как ошибка может стоить городу слишком дорого, целевая точность модели **(accuracy)** должна быть не ниже **91.5%**. Если качество модели превысит **86.5%**, но не достигнет целевой точности, вы получите дробные баллы.
+**Output**: `answers.csv` with predictions (one per line)
 
-Ваша задача — залить в систему файл **answers.csv**, где в каждой строке — **0** или **1** в зависимости от предсказания вашей модели.
-
-Максимальное число баллов за задачу: **5**
+**Approach**:  
+  - Exploratory Data Analysis (EDA)  
+  - Model building: Logistic Regression and CatBoostClassifier  
